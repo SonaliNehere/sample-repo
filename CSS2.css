@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    padding: 20px;
+}
+
+.parent{
+    background-color: white;
+    width: 100%;
+    height:500px;
+    display:flex;
+    gap:5px; /*  to apply space between boxes */
+    justify-content: center; /* adjust element in horizontal direction. 
+                                justify will align items in group  */
+    align-items:center; /* adjust element in vertical direction.
+                            align-items will align items individually. */
+    /*justify-content: space-between; */
+    /*flex-direction:column; - directions in which boxes will reender */
+
+
+}
+.parent1{
+    background-color: white;
+    width: 100%;
+    height:500px;
+    display:flex;
+    gap:5px; /*  to apply space between boxes */
+    flex-wrap: wrap; /* Used to reender boxes as we specified size . 
+    size will not change even after increase in no. of boxes */
+    
+
+}
+
+
+
+
+.child1{
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+
+}
+
+.child2{
+    background-color: red;
+    width: 200px;
+    height: 250px;
+}
